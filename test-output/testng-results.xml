@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="13251" started-at="2022-05-23T17:23:06 IST" finished-at="2022-05-23T17:23:19 IST">
+    <groups>
+    </groups>
+    <test name="Verify homeware" duration-ms="13251" started-at="2022-05-23T17:23:06 IST" finished-at="2022-05-23T17:23:19 IST">
+      <class name="Test.VerifyHomeware">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Test.VerifyHomeware@1976f537]" name="setUp" is-config="true" duration-ms="1443" started-at="2022-05-23T17:23:06 IST" finished-at="2022-05-23T17:23:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginThroughExcelData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.VerifyHomeware@1976f537]" name="LoginThroughExcelData" duration-ms="8159" started-at="2022-05-23T17:23:07 IST" data-provider="WebsiteLoginData" finished-at="2022-05-23T17:23:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://giftshop.redcross.org.uk/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[poorvamalhotra815@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[poorvamalhotra815@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginThroughExcelData -->
+        <test-method status="PASS" signature="clothing()[pri:0, instance:Test.VerifyHomeware@1976f537]" name="clothing" duration-ms="2878" started-at="2022-05-23T17:23:15 IST" depends-on-methods="Test.VerifyHomeware.LoginThroughExcelData" finished-at="2022-05-23T17:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clothing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.VerifyHomeware@1976f537]" name="tearDown" is-config="true" duration-ms="755" started-at="2022-05-23T17:23:18 IST" finished-at="2022-05-23T17:23:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.VerifyHomeware -->
+    </test> <!-- Verify homeware -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

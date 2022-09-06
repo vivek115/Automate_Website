@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Configuration.Listeners"/>
+    </listeners>
+
+    <test name="Login into HRM Through Excel Data">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="Test.Demo"/>
+        </classes>
+    </test>
+<!--    <test name="Select the value from dropdown">-->
+<!--        <parameter name="browserName" value="chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Test.VerifyClothing"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Verify stationary">-->
+<!--        <parameter name="browserName" value="chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Test.VerifyStationery"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Verify homeware">-->
+<!--        <parameter name="browserName" value="chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Test.VerifyHomeware"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Verify beauty">-->
+<!--        <parameter name="browserName" value="chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Test.VerifyBeauty"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Verify NewIn">-->
+<!--        <parameter name="browserName" value="chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="Test.VerifyNewIn"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

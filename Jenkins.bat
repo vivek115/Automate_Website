@@ -1,0 +1,1 @@
+java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar "C:\Users\PriyaGandhi\Downloads\jenkins.war" --httpPort=8082
